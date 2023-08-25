@@ -28,29 +28,3 @@ Django is a high-level web framework for building web applications quickly and e
 Install Django using pip:
 ```bash
 pip install django
-
-### Django REST framework
-Django REST framework is a powerful toolkit for building Web APIs in Django applications.
-**Installation:**
-Install djangorestframework using pip:
-```bash
-pip install djangorestframework
-
-###Node.js and React.js
-Node.js is a runtime environment that allows you to run JavaScript on the server-side. React.js is a JavaScript library for building user interfaces.
-
-**Installation:**
-Download Nodejs from here Node.js Downloads.
-
-Create a new React project using create-react-app:
-```bash
-npx create-react-app my-react-app
-
-###Bootstrap
-Bootstrap is a popular front-end framework that provides a collection of CSS and JavaScript components for building responsive web interfaces.
-
-Installation:
-You can include Bootstrap using a CDN or install it using npm:
-npm install bootstrap
-
-
