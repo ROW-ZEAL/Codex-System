@@ -1,0 +1,279 @@
+table {
+  border: 1px solid #eeeeee;
+  text-align: center;
+}
+th.brokerth {
+  border: 1px solid #eeeeee;
+  color: #757575;
+}
+
+td.small_td {
+  border: 1px solid #eeeeee;
+  text-align: center;
+  padding: 4px;
+  background-color: gainsboro;
+  font-size: 12px;
+}
+h1.bname {
+  margin-top: 40px;
+  font-size: 30px;
+  text-align: center;
+  font-style: italic;
+  color: #9e9e9e;
+}
+tr.red_100 {
+  background-color: #ffcdd2;
+}
+tr.green_100 {
+  background-color: #c8e6c9;
+}
+
+table.new_table {
+  border-radius: 20px;
+  margin-top: 10px;
+}
+
+th {
+  border: 1px solid black;
+  padding: 20px;
+  background-color: white;
+  margin: 10px;
+}
+td {
+  border: 1px solid #eeeeee;
+  padding: 10px;
+}
+
+h4.date {
+  margin-top: 50px;
+  margin-left: -600px;
+  color: #757575;
+}
+h1.stockHead {
+  margin-left: 100px;
+  margin-top: 100px;
+  text-align: center;
+  color: #757575;
+}
+h2.stockname {
+  margin-left: 100px;
+  margin-top: 10px;
+  text-align: center;
+  color: #757575;
+}
+
+table.Stock_table {
+  border-radius: 20px;
+  margin-top: 40px;
+  margin-left: 100px;
+  color: #757575;
+}
+
+th.headsto {
+  border: 1px solid #eeeeee;
+  padding-right: 10px;
+  background-color: white;
+  margin: 10px;
+  color: #757575;
+}
+td.headsto {
+  border: 1px solid #eeeeee;
+  padding-right: 10px;
+  background-color: white;
+  margin: 10px;
+  color: #757575;
+}
+
+th.close {
+  border: 1px solid #eeeeee;
+  padding-right: 300px;
+  background-color: white;
+  color: #757575;
+  border-right: 150px;
+}
+
+th.bulkhead {
+  border: 1px solid #eeeeee;
+  padding: 10px;
+  background-color: white;
+  margin: 10px;
+}
+.Larger {
+  font-size: 40px;
+}
+
+td.green_100 {
+  color: #a5d6a7;
+}
+
+td.red_100 {
+  color: #ef9a9a;
+}
+
+th.Bulkhead {
+  border: #eeeeee;
+  padding-right: 10px;
+  background-color: white;
+  margin: 10px;
+  color: #757575;
+}
+
+h5.headerthree {
+  margin-left: -650px;
+}
+
+tr.odd {
+  background-color: #f5f5f5;
+}
+
+tr.even {
+  background-color: white;
+}
+td.g {
+  background-color: #69f0ae;
+}
+td.lg {
+  background-color: #00e676;
+}
+td.dg {
+  background-color: #1b5e20;
+}
+
+table.bulky {
+  border: none;
+}
+
+th.bulky {
+  border: none;
+  padding: 10px;
+  font-size: 14px;
+  color: #9e9e9e;
+}
+
+th.symbol {
+  border: none;
+  padding: 10px;
+  font-size: 14px;
+  color: #9e9e9e;
+  border-left: 2px solid#BDBDBD;
+  border-right: 2px solid#BDBDBD;
+}
+th.seller {
+  border: none;
+  padding: 10px;
+  font-size: 14px;
+  color: #9e9e9e;
+  border-left: 2px solid#BDBDBD;
+}
+th.bsratio {
+  border: none;
+  padding: 10px;
+  font-size: 14px;
+  color: #9e9e9e;
+  border-left: 2px solid#BDBDBD;
+}
+td.bulky {
+  border: none;
+  padding: 10px;
+  color: #757575;
+}
+td.symbol {
+  border: none;
+  padding: 10px;
+  color: #757575;
+  border-left: 2px solid#BDBDBD;
+  border-right: 2px solid #bdbdbd;
+}
+td.seller {
+  border: none;
+  padding: 10px;
+  color: #757575;
+  border-left: 2px solid#BDBDBD;
+}
+td.bsratio {
+  border: none;
+  padding: 10px;
+  color: #757575;
+  border-left: 2px solid#BDBDBD;
+}
+
+div.vertical_space {
+  margin-top: 50px;
+}
+.nav.flex-column {
+  margin-right: 100px;
+}
+table.tabtable {
+  border-radius: 20px;
+  margin-left: -100px;
+}
+
+.main {
+  text-align: center;
+}
+.geek1 {
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  padding-bottom: 10px;
+}
+
+.marks {
+  margin: 0px 5px;
+  text-align: center;
+  background-color: none;
+}
+.marquee {
+  background-color: #e0e0e0;
+  color: black;
+}
+.marquee-container {
+  margin-bottom: 10px;
+}
+
+.app {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+form {
+  background-color: white;
+  padding: 0px 60px;
+  border-radius: 10px;
+  justify-content: center;
+}
+
+h2 {
+  color: rgb(77, 1, 77);
+  text-align: center;
+}
+
+button {
+  width: 100%;
+  height: 50px;
+  padding: 10px;
+  border: none;
+  background-color: rebeccapurple;
+  color: white;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 18px;
+  cursor: pointer;
+  margin-top: 15px;
+  margin-bottom: 30px;
+}
+
+.candidate-image {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.image-placeholder {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}

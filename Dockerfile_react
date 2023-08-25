@@ -1,0 +1,6 @@
+FROM node:14 AS node_frontend
+WORKDIR /app
+COPY frontend /app/
+RUN npm install
+EXPOSE 3000
+CMD ["npm", "start"]
