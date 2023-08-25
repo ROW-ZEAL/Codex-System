@@ -29,15 +29,17 @@ Install Django using pip:
 ```bash
 pip install django
 
-### Django
+### Django REST framework
 
-Django is a high-level web framework for building web applications quickly and efficiently.
+Django REST framework is a powerful toolkit for building Web APIs in Django applications.
 
 **Installation:**
-Install Django using pip:
+Install Django REST framework using pip:
 
 ```bash
-pip install django
+pip install djangorestframework
+
+
 
 
 ###Node.js and React.js
