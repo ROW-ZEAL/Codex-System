@@ -21,3 +21,33 @@ Django REST framework is a powerful toolkit for building Web APIs in Django appl
 Install djangorestframework using pip:
 ```bash
 pip install djangorestframework
+Node.js and React.js
+Node.js is a runtime environment that allows you to run JavaScript on the server-side. React.js is a JavaScript library for building user interfaces.
+
+Installation:
+
+Download and install Node.js from Node.js Downloads.
+Create a new React project using create-react-app:
+bash
+Copy code
+npx create-react-app my-react-app
+Bootstrap
+Bootstrap is a popular front-end framework that provides a collection of CSS and JavaScript components for building responsive web interfaces.
+
+Installation:
+
+You can include Bootstrap using a CDN or install it using npm:
+
+bash
+Copy code
+npm install bootstrap
+Get Started
+Follow these steps to get started with the project:
+
+Clone this repository.
+Set up the backend (Django) and frontend (React) parts of the project.
+Run the development servers.
+License
+This project is licensed under the MIT License.
+
+Feel free to let me know if there's anything else you'd like to add or ask about your project!
