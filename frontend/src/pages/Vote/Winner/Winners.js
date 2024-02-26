@@ -18,7 +18,7 @@ const Winners = () => {
 
     let getWinners = async () => {
 
-        let response = await fetch('/api/winner')
+        let response = await fetch('http://localhost:8000/api/winner')
         let data = await response.json()
         setWinners(data["Winner_data"]);
 

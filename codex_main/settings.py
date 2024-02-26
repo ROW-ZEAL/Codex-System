@@ -40,10 +40,12 @@ INSTALLED_APPS = [
     'rest_framework',
     'home',
     'api',
+    'corsheaders',
 ]
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
+    'corsheaders.middleware.CorsMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
@@ -51,6 +53,13 @@ MIDDLEWARE = [
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
+
+CORS_ORIGIN_WHITELIST = [
+    'http://localhost:3000',
+    # other allowed origins
+]
+
+MY_ROOT_URL = 'http://127.0.0.1:8000/'
 
 ROOT_URLCONF = 'codex_main.urls'
 
@@ -82,7 +91,7 @@ DATABASES = {
         'NAME': 'postgres',
         'USER': 'postgres',
         'PASSWORD': 'postgres',
-        'HOST': 'db',  
+        'HOST': 'localhost',  
         'PORT': '5432',
     }
 }

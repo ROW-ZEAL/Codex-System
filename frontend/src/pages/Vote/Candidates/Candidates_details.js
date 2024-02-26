@@ -12,7 +12,7 @@ const Candidates_details = () => {
     }, []);
 
     let getCandidatesDetails = async () => {
-        let response = await fetch('/api/candiate');
+        let response = await fetch('http://localhost:8000/api/candiate');
         let data = await response.json();
         setCandidatesDetails(data["candidate_name"]);
     };

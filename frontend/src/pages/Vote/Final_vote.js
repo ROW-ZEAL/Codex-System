@@ -18,7 +18,7 @@ const VoterList = () => {
     }, []);
 
     const fetchCandidatesData = async () => {
-        const response = await fetch("/api/candiate");
+        const response = await fetch("http://localhost:8000/api/candiate");
         const data = await response.json();
         setCandidateList(data.candidate_name);
     };
